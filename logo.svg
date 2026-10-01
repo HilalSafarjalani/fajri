@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/><stop offset="0.5" stop-color="#1F2A5E"/>
+      <stop offset="0.8" stop-color="#4A3466"/><stop offset="1" stop-color="#8C4E68"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="50" x2="0" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD98A"/><stop offset="1" stop-color="#F08A5D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="54" cy="64" r="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4B860" stop-opacity="0.4"/><stop offset="1" stop-color="#F4B860" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="108" height="108" rx="24" fill="url(#sky)"/>
+  <path d="M30,64 A24,24 0 0,1 78,64 Z" fill="url(#glow)"/>
+  <path d="M40,64 A14,14 0 0,1 68,64 Z" fill="url(#sun)"/>
+  <g stroke-linecap="round" stroke="#F6F2E8">
+    <path d="M28,64.5 H80" stroke-width="2"/>
+    <path d="M42,70 H66" stroke-width="1.6" stroke-opacity="0.6"/>
+    <path d="M48,75 H60" stroke-width="1.4" stroke-opacity="0.33"/>
+  </g>
+  <path d="M45,27 A10,10 0 1,0 45,47 A12,12 0 0,1 45,27 Z" fill="#F6F2E8"/>
+  <path d="M62,29 L63.3,33.2 L67.5,34.5 L63.3,35.8 L62,40 L60.7,35.8 L56.5,34.5 L60.7,33.2 Z" fill="#F4B860"/>
+</svg>
